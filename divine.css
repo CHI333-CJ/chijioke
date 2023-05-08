@@ -1,0 +1,521 @@
+/* Normailize CSS Styles from Andy */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* **************************************************** */
+/* Header Styles */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* background-color: darkolivegreen; */
+}
+
+.top-header {
+  border-bottom: 1px solid #777;
+  padding-block: 2.5rem;
+  background-color: rgb(252, 184, 0);
+}
+
+.top-nav {
+  padding-inline: 1.5rem;
+}
+
+.logo {
+  width: 30%;
+}
+
+.product-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(252, 184, 0);
+  position:static;
+}
+
+.product-heading {
+  display: flex;
+  align-items: center;
+}
+
+.products-list {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.products-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.chat {
+  list-style: none;
+}
+
+.chat a {
+  text-decoration: none;    
+  color: black;
+}
+
+.divine-light{
+  border:1px solid red;
+  display:flex;
+  padding-left: 0px;
+  gap: 2rem;
+  justify-items: center;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.flat-cable{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  border-radius: 3rem;
+}
+
+.image1{
+  background-color: blue;
+  width: 100%;
+  object-fit: fill;
+  /* border-radius: 3rem; */
+  margin: 3rem;
+}
+
+.gold{
+  display: flex;
+  border: 1px solid black;
+  background-color: rgb(252, 184, 0) ;
+}
+
+.image{
+  width: 60%;
+  border-radius: 3rem;
+}
+
+.nationwide{
+  border: 1px solid grey;
+  padding: 3rem;
+  display: flex;
+  margin: 3rem  3rem;
+  justify-content: space-between;
+}
+
+.service{
+  gap: 1.3rem;
+  justify-content:center;
+  background-color: #fff;
+  font-size: 1.5rem;
+}
+
+/* .Divine-Kitchen{
+  /* border: 1px solid green; */
+  /* padding: 3rem; */
+
+ */
+
+/* .deal{
+  /* font-size: 2.5rem; */
+*/
+
+.intensive{
+  width: 100%;
+  height: 50%;
+}
+
+.kitchen-list{
+padding-left: 0;
+align-items: center;
+display: flex;
+width: 100%;
+/* justify-content: space-between; */
+/* margin: 3rem 3rem; */
+}
+
+.kitchen-list a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  /* justify-content: space-between; */
+  text-transform: capitalize;
+}
+
+.dropping-light{
+  border: 1px solid green;
+}
+
+.hangging{
+  display: flex;
+  margin: 3rem;
+  gap: 2rem;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+
+.hangging-light{
+  border-radius: 3rem;
+}
+
+.categories{
+  /* border: 1px solid brown; */
+  padding: 3rem;
+
+}
+
+.nav-divine{
+  padding-left: 0;
+  display: flex;
+  width: 100%;
+}
+
+.nav-divine a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding-left: 1rem;
+  text-align: center;
+  
+}
+
+.assets{
+  width:20rem;
+  height: 20rem;
+  padding-top: -10rem;
+}
+
+.consumer{
+  height: 60%;
+  width: 100%;
+}
+
+.appliance{
+  border: 1px solid gray;
+}
+
+.home{
+  display: flex;
+  font-size: 2rem;
+  color: black;
+}
+
+.appliance{
+  /* border: 1px solid gold; */
+  padding-left: 0;
+  background-color: rgb(216, 214, 214);
+  margin-left: 3rem;
+  margin-right:3rem ;
+  /* border-bottom: 10px black; */
+  border-style: none;
+
+}
+
+.Arrivals{
+  /* border: solid green; */
+  display: inline;
+  padding-left: 55rem;
+  word-spacing: 0.2rem; 
+}
+
+.Arrivals a{
+ font-size: 1.6rem; 
+  text-decoration: none;
+  color: black;
+}
+
+.cooker-unit{
+  /* border: 1px solid gold; */
+  margin-top: 4rem;  
+}
+
+.grinder{
+  padding-left: 0;
+  display: flex;
+  width: 95%;
+  height: 30rem;
+  gap: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.grinder a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.flood-light{
+  border: 1px solid red;
+  background-color:  rgb(216, 214, 214);
+  margin: 3rem  3rem;
+  margin-top: -10rem;
+}
+
+.nav-link{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.nav-link a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.nav-list{
+  padding-left: 40rem;
+  word-spacing: 0.2rem; 
+}
+
+.energy{
+  border: 1px solid blue;
+  margin: 3rem 3rem
+}
+ 
+.lamp{
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  gap: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+}
+
+.lamp a{
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.Electricals-cable{
+  border: 1px solid  burlywood;
+  background-color:  rgb(216, 214, 214);
+  margin: 3rem  3rem;
+  /* margin-top: -10rem; */
+}
+
+.wire-link{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  display: flex;
+  position: relative;
+}
+
+.wire-link a {
+  text-decoration: none;
+  /* text-align: center; */
+  color: black;
+}
+
+.wire-list a{
+  position: relative;
+  left: 50rem;
+  word-spacing: 1rem;
+}
+
+.Aluminium{
+  border: 1px solid green;
+  padding-left: 0%;
+}
+
+.Alloy{
+width: 90%;
+list-style: none;
+ display: flex;
+text-align: center;
+gap: 5rem;
+object-fit: cover;
+margin: 3rem;
+text-decoration: none;
+
+}
+
+.Alloy a{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.conductor{
+  height: 50%;
+}
+
+.pannel{
+  border: 1px solid pink;
+  color: black;
+  margin: 3rem;
+  display: flex;
+  background-color: rgb(221, 219, 219);
+
+}
+
+.inverter a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  position: static;
+}
+
+.batteries a {
+  text-decoration: none;
+  color: black;
+  justify-content: space-around;
+  position: relative;
+  gap: 1rem; 
+}
+
+.batteries{
+  display: inline-flex;
+  padding-left: 65rem;
+}
+
+.inverter-battery{
+    border: 1px solid black;
+    padding-left: 0;
+    /* background-color: #23527c; */
+}
+.battery{
+    display: flex;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 90%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    gap: 10rem;
+    margin: 3rem;
+    /* justify-content: space-around; */
+    object-fit: cover;
+  } 
+
+  .battery a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .solar-panel{
+    height: 70%;
+    width: 100%;
+
+  }
+
+  .newlight{
+    border: 1px solid blue;
+    display: flex;
+    gap: 2rem;
+    margin: 3rem;
+    margin-top: 7rem;
+  }
+
+  .create{
+    height: 100%;
+    border-radius: 3rem;
+  }
+
+  .yellow{
+    border: 1px solid gold;
+    display: flex;
+    margin: 3rem;
+    margin-top: 10rem;
+    gap: 2rem;
+  }
+
+.angel{
+  height: 100%;
+  border-radius: 3rem;
+  /* background-image: -o-linear-gradient(buttons); */
+}
+
+
+
+
+
+
+
+  

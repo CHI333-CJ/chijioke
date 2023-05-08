@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    background-color: rgb(252, 184, 0);
+}
+
+body{
+    border: 1px solid gold;
+}
+
+.nav-list{
+    font-size: 1.5rem;
+    /* border: 1px solid gold; */
+    padding-left: 0%;
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    gap: 2rem;
+}
+
+.image{
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav-container {
+    border: 1px solid gold;
+    padding-left: 0;
+    list-style: none;
+}
+
+.img-container {
+    border: 1px solid gold;
+}
+
+.p-text{
+    text-decoration: none;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(240, 238, 238);
+    font-size: 2rem;
+    text-align: center;
+}

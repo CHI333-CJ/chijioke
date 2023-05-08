@@ -1,0 +1,6 @@
+.hidden{
+    display: none;
+}
+.hidden-list:hover+.hidden-list{
+    display: block;
+}
